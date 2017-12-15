@@ -1,5 +1,7 @@
-exports.format = {
-    phone: function (phone = '') {
-        return phone.replace(/^(.{3}).*(.{4})$/, "$1****$2")
-    }
-};
+const regExpConst = require('./lib/regExpConst');
+const format = require('./lib/format');
+
+module.exports = {
+    format,
+    regExpConst,
+}
