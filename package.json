@@ -1,6 +1,6 @@
 {
   "name": "rztf-utils",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "各种常用方法正则组件等",
   "main": "index.js",
   "format": "./lib/format.js",
